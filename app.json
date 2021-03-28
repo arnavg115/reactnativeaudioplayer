@@ -4,7 +4,7 @@
     "slug": "podap",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icons.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,12 +21,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icons.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "podap.arnavgurha.me"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icons.png"
     }
   }
 }
